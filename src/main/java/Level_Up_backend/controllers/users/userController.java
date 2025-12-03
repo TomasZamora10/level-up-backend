@@ -14,8 +14,8 @@ import java.util.List;
 import java.util.Map;
 
 @CrossOrigin(originPatterns = "*", origins = "http://localhost:5173/")
-RestController
-@RequestMapping("/api/v1/users")
+@RestController
+@RequestMapping("/api/v1/products")
 public class userController {
 
     @Autowired

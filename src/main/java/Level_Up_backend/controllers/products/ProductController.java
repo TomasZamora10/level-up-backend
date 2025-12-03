@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @CrossOrigin(originPatterns = "*", origins = "http://localhost:5173/")
 @RestController
-RequestMapping("/api/v1/products")
+@RequestMapping ("/api/v1/products")
 public class ProductController {
     @Autowired
     private ProductService productService;
