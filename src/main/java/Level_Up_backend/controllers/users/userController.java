@@ -1,5 +1,7 @@
 package Level_Up_backend.controllers.users;
 
+import Level_Up_backend.Models.users.User;
+import Level_Up_backend.services.users.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(originPatterns = "*", origins = "http://localhost:5300")
+@CrossOrigin(originPatterns = "*", origins = "http://localhost:5173/")
 RestController
 @RequestMapping("/api/v1/users")
 public class userController {

@@ -1,5 +1,6 @@
 package Level_Up_backend.services.Orders;
 
+import Level_Up_backend.Models.orders.OrderDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
